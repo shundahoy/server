@@ -1,0 +1,149 @@
+    1  docker stop centos7
+    2  exit
+    3  pwd
+    4  ls
+    5  cd root
+    6  pwd
+    7  ls
+    8  ls -a
+    9  cd /root
+   10  ls -a
+   11  cd /usr
+   12  ls -a
+   13  cd /home
+   14  pwd
+   15  ls
+   16  ls -a
+   17  mkdir test1
+   18  ls
+   19  cd /home
+   20  mkdir test2/test3
+   21  mkdir test2/test3
+   22  mkdir -p test2/test3
+   23  touch test1/index.php
+   24  cd /home/test1 && ls
+   25  cd /home/test1
+   26  cp index.php copy.php
+   27  cp -r test1 test4
+   28  cd /home
+   29  ls
+   30  cp -r test1 test4
+   31  ls
+   32  mv test2/test3 test3
+   33  mv test4 test1_copy
+   34  rm test1/copy.php
+   35  ls
+   36  rm test1_copy/*.php
+   37  cat README.md
+   38  echo '# Hello World' > README.md
+   39  ls
+   40  cat README.md
+   41  echo 'Linux Practice' >> README.md
+   42  echo '-----------------' >> README.md
+   43  cat README.md
+   44  exit
+   45  cd /root
+   46  mkdir server_lesson && cd server_lesson
+   47  um update -y && yum -y install git
+   48  yum update -y && yum -y install git
+   49  git version
+   50  git init
+   51  touch first.txt
+   52  ped
+   53  pwd
+   54  mkdir linux_practice1
+   55  cd linux_practice1
+   56  mkdir public
+   57  touch public/index.php
+   58  ls
+   59  cd public
+   60  ls
+   61  cd ..
+   62  cd pyblic
+   63  cd public
+   64  cp index.php index_bk.php
+   65  ls
+   66  cd ..
+   67  cp -r public tmp
+   68  ls
+   69  cd tmp
+   70  ls
+   71  cdd ..
+   72  cd ..
+   73  cd tmp
+   74  ls
+   75  rm index_bk.php
+   76  cd ..
+   77  vi README.md
+   78  cd README.md
+   79  cat README.md
+   80  ls
+   81  cd ..
+   82  ls
+   83  mkdir linux_practice2
+   84  ls
+   85  cd linux_practice2
+   86  mkdir documents
+   87  cd documents
+   88  touch gizumo{01..50}.md
+   89  ls
+   90  cd ..
+   91  mkdir trash
+   92  ls
+   93  mv documents/gizumo{20..40}.md trash
+   94  ls
+   95  cd documents
+   96  ls
+   97  cd ..
+   98  cd trash
+   99  ls
+  100  cd ..
+  101  touch .gitignore
+  102  ls
+  103  ls -a
+  104  vi .gitignore
+  105  cat .gitignore
+  106  history 300 >> exec_command.log
+  107  ls
+  108  cat exec_command.log
+  109  cd ..
+  110  mv linux_practice2/.gitignore server_lesson
+  111  ls
+  112  cd server_lesson
+  113  ls
+  114  cd ..
+  115  cd server_lesson
+  116  ls
+  117  rm server_lesson
+  118  ls
+  119  cd linux_practice2
+  120  ls -a
+  121  cd ..
+  122  vi .gitignore
+  123  ls -a
+  124  ls
+  125  cd linux_practice2
+  126  ls
+  127  rm exec_command.log
+  128  history 300 >> exec_command.log
+  129  cat exec_command.log
+  130  cd ..
+  131  git branch -M main
+  132  git remote add origin https://github.com/shundahoy/server_lesson.git
+  133  git add .
+  134  git status
+  135  vi .gitignore
+  136  git rm --cached gizumo[20-29].md
+  137  ls
+  138  rm .gitignore
+  139  cd linux_practice2
+  140  .gitignore
+  141  touch .gitignore
+  142  vi .gitignore
+  143  cd ..
+  144  ls
+  145  cd linux_practice2
+  146  ls
+  147  rm exec_command.log
+  148  rm exec_command.log
+  149  history 300 >> exec_command.log
